@@ -1,1 +1,18 @@
-/* write your override styles here */
+body {
+    background: white url(../images/override-background.jpg) no-repeat center;
+    background-size: contain;
+  }
+  
+  #wall {
+    margin: 20px auto;
+    width: auto;
+    height: auto;
+    background: url(../images/override-wall.jpg) no-repeat center;
+    box-shadow: 10px 10px 20px red, -10px -10px 20px blue;
+    border: 10px solid black; 
+    border-bottom: 40px solid black;
+  }
+  
+  .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    display: none; 
+  }
